@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="62fd10b6-8462-4a9d-914b-3b52991e2d7d"
   name="KeptItUseCaseDiagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -17,28 +17,495 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="dba2fa50-5c3e-43c5-ba3a-18422e822879"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a77c9a87-bb05-421b-9203-ea6e37c30d8e"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registrer timer"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f663bce8-b00a-43d6-a89d-0356b909ff69"
+              LastKnownName="Registrer"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="07b042b7-417b-42c0-9b15-6fd9187c2890"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b70437c9-a2be-48fd-8e68-60e5c08a0995"
+                  name="Registrer timer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="440c0be9-60b4-49c8-ba96-d28cd17e99aa"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Redigere"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="54c41c70-6390-4d64-8b36-517af7a40bb3"
+              LastKnownName="Redigere"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e30ae5bb-8f9f-4654-9a69-bc65ae57863f"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e0b74b1d-2b0a-47e1-b4bb-6afda01712d7"
+                  name="Redigere"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3855fd9f-2deb-44d9-ace8-1d0a8e63cac6"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Se timeforbrug for alle"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5e92fad7-2a83-4cb3-9c66-16e5dc9263e1"
+              LastKnownName="Se timeforbrug for alle"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc14a0fb-7140-43d0-aad8-adb056fa1078"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d52898c-df7d-4820-879c-4f437257f14b"
+                  name="Se timeforbrug for alle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="55c19146-9847-4e9d-9628-57e8bc873505"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Opret opgave"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d52383da-af05-4e7f-8073-3bc2e7c444c9"
+              LastKnownName="Opret opgave"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e929c750-2986-4c50-802e-ef7556dc1373"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea321b3e-fac1-46b8-83f1-c638f0aae473"
+                  name="Opret opgave"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c74acf03-8576-447a-9734-ab130296558b"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Slet opgave"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6eb1fa37-b404-49a8-ab9c-3162ef6a9a8b"
+              LastKnownName="Slet opgave"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4094718d-cb5a-4c5c-8b06-4b90b4994d5a"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a422747-9146-4341-bde6-1a71d991ca8f"
+                  name="Slet opgave"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4266218d-4494-4409-b7d4-c9a556dd5fbb"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Vælg dato"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="efb52e13-b275-432e-8fb1-2279ce80da21"
+              LastKnownName="Vælg dato"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0da3207-9c44-4dfd-8985-e75f5757528d"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf0c594e-aeba-46cf-9ba9-f9a199144ec0"
+                  name="Vælg dato"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="44679970-01b8-4e39-973d-c8916a1cad0b"
+        name="Greenkeeper"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="d20ce7fa-dbbb-4b0f-8c33-5913ad3e4386"
+            isDerived="false"
+            sourceEndRoleName="Greenkeeper"
+            targetEndRoleName="Registrer timer"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f663bce8-b00a-43d6-a89d-0356b909ff69"
+              LastKnownName="Registrer"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c6baf786-2c8f-4814-a54e-6924e5f2ca2c"
+                  name="Greenkeeper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="147223a4-0e89-400a-bbb0-5b48ed38fb9d"
+                  name="Registrer timer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dcb7127b-60ca-4b1f-b50f-ddd88ef5481b"
+            isDerived="false"
+            sourceEndRoleName="Greenkeeper"
+            targetEndRoleName="Redigere"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="54c41c70-6390-4d64-8b36-517af7a40bb3"
+              LastKnownName="Redigere"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="17fd34cc-7fee-4cec-86ff-c16307043cbb"
+                  name="Greenkeeper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff38b22b-51da-4b07-bf9d-5a9b37df365f"
+                  name="Redigere"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="62bd2453-fb49-479b-a11d-767188c8d9a7"
+            isDerived="false"
+            sourceEndRoleName="Greenkeeper"
+            targetEndRoleName="Opret opgave"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d52383da-af05-4e7f-8073-3bc2e7c444c9"
+              LastKnownName="Opret opgave"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a559e2b5-eaa3-4e2b-afa0-4e09652586f7"
+                  name="Greenkeeper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b5a1a9e9-b9ba-4ad5-9658-0168ddabd862"
+                  name="Opret opgave"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d85b631b-9a1a-4277-9209-1e56c4db011c"
+            isDerived="false"
+            sourceEndRoleName="Greenkeeper"
+            targetEndRoleName="Se timer"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dc81a6be-e66a-4efb-80a6-415d7890bad9"
+              LastKnownName="Se timer"
+              LastKnownLocation="KeptItUseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e719692d-7b43-481e-b81a-6131f014c249"
+                  name="Greenkeeper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ab5d158-485f-4581-a968-7a03d46bd6aa"
+                  name="Se timer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f663bce8-b00a-43d6-a89d-0356b909ff69"
+        name="Registrer"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="54c41c70-6390-4d64-8b36-517af7a40bb3"
+        name="Redigere"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5e92fad7-2a83-4cb3-9c66-16e5dc9263e1"
+        name="Se timeforbrug for alle"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d52383da-af05-4e7f-8073-3bc2e7c444c9"
+        name="Opret opgave"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6eb1fa37-b404-49a8-ab9c-3162ef6a9a8b"
+        name="Slet opgave"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="efb52e13-b275-432e-8fb1-2279ce80da21"
+        name="Vælg dato"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc81a6be-e66a-4efb-80a6-415d7890bad9"
+        name="Se timer"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>
